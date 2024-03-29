@@ -1,0 +1,30 @@
+30902_김준원
+
+	문제7> jobs 테이블에서 min_salary 값이 5000 이하 이고
+	max_salary값 10000 이상인 job_id 을 출력하시오.
+	
+	SQL> slect job_id from jobs
+	2 where min_salary <=5000 and max_salary >= 10000;
+	
+	<출력결과>
+	JOB_ID
+	----------
+	IT_PROG
+	PR_REP
+	
+	문제8> jobs 테이블에서 min_salary값이 5000 미만 이거나
+	max_salary값 9000 초과인 job_title 을 출력하시오.
+
+	문제9> jos_title이 programmer인 행전체를 출력하시오.
+
+	문제10> jos_title이 Programmer, Manager인 행전체를 출력하시오.
+	
+	문제 11> 문제 10문제를 'IN' 명령을 이용해 작성하시오.
+	
+	문제12> max_salary값이 10000이상 15000이하인 job_title을 출력하시오.
+	
+	max_salary between 10000 and 15000;
+
+	문제13> job_title 이 'P'로 시작하는  행전체를 출력하시오.
+
+	
