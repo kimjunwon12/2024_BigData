@@ -1,0 +1,13 @@
+30902김준원
+테이블에 데이터를 추가하는 insert문
+insert into ETA
+(job_id,job_titlem,min_salary,max_salary)
+values(AD_PRES','KING',20000, 40000);
+
+insert into NEWJEANS
+(job_id,job_title,min_salary,max_salary)
+values('FD_ABD','QUEEN',10000, 125000);
+
+insert into ETA
+(job_ID,job_title,min_salary,max_salary)
+values('SAR_ENG','manager',NULL,NULL);
